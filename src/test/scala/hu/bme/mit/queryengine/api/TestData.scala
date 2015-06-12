@@ -9,7 +9,7 @@ case class TestData(
     productionRecipe: ProductionRecipe,
     modelUrl: URL,
     metamodelUrl: URL,
-    expectedResultInitial: QueryResult,
-    delta: Delta,
-    expectedResultAfterChange: QueryResult
+    expectedResultInitial: ChangeSet,
+    delta: ChangeSet,
+    expectedResultAfterChange: ChangeSet
 )

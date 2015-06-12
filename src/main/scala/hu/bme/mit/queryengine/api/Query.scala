@@ -4,5 +4,5 @@ import org.eclipse.incquery.runtime.rete.recipes.ProductionRecipe
 import scala.concurrent.Future
 
 trait Query {
-  def getResults(productionRecipe: ProductionRecipe): Future[QueryResult]
+  def getResults(productionRecipe: ProductionRecipe): Future[ChangeSet]
 }
